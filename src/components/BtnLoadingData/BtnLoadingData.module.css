@@ -1,0 +1,19 @@
+.loaderDataBtn{
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	left: 50%;
+	margin-top: 20px;
+	transform: translate(-50%);
+}
+.loaderDataBtn button{
+	padding: 10px;
+	width: 150px;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: "Times New Roman";
+}
+.loaderDataBtn button:hover{
+
+}

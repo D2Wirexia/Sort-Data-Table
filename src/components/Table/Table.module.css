@@ -1,0 +1,17 @@
+.data table{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	top: 20px;
+	width: 900px;
+	border-collapse: collapse;
+	background: rgba(243, 243, 243, 0.89);
+}
+.data table *{
+	padding: 10px;
+	text-align: center;
+
+}
+tr{
+	border: 1px solid #bababa;
+}

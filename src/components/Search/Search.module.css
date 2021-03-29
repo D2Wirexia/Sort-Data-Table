@@ -1,0 +1,16 @@
+.searchPanel{
+	position: relative;
+	width: 600px;
+	left: 50%;
+	transform: translate(-50%);
+	margin-top: 15px;
+	display: flex;
+	height: 30px;
+}
+.searchPanel input{
+	width: 100%;
+}
+.searchPanel button{
+	width: 50px;
+	cursor: pointer;
+}

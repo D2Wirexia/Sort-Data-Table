@@ -1,0 +1,27 @@
+.addElementTable{
+	position: relative;
+	left: 50%;
+	margin-top: 30px;
+	width: 1100px;
+	transform: translate(-50%);
+}
+.addElementTable table{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+.addElementTable table *{
+	width: 200px;
+}
+.addElementTable table th{
+	background: #e7ebf0;
+}
+.addElementTable button{
+	width: 200px;
+	font-size: 19px;
+	margin-top: 5px;
+	padding: 5px;
+
+}
+.addElementTable div button:last-child{
+	margin-left: 10px;
+}

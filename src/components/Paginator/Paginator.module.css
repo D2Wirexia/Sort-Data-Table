@@ -1,0 +1,27 @@
+.paginator{
+	position: relative;
+	margin-top: 50px;
+	display: flex;
+	left: 50%;
+	justify-content: center;
+	transform: translate(-50%);
+}
+.paginator span{
+	padding: 5px;
+	border: 1px solid black;
+	background: #4958a7;
+	margin-left: 5px;
+	position: relative;
+	text-align: center;
+	font-family: Elephant;
+	width: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+.paginator button:last-child{
+	margin-left: 5px;
+}
+span.activePage{
+	color: #000;
+	background: #46ffd3;
+}
